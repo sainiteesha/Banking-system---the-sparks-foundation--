@@ -1,0 +1,178 @@
+<html>
+<head>
+<title>Banking System</title>
+<link rel="stylesheet" href="assets/css/main.css" >
+<!-- CSS -->
+<link rel="stylesheet" 
+href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+ <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
+  <!--logo-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+  <!-- Font-Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+</head>
+
+<body onload="loader()">
+	<div id="loading"></div>
+
+    <!--Navbar Starts Here-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="box-shadow: 0 2px 4px 0 rgba(0,0,0,.2)">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./main.html">SPARKS Bank</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="nav navbar-nav navbar-right ml-auto">
+            <li>
+              <a class="nav-link active" aria-current="page" href="main.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            
+			<li class="nav-item">
+              <a class="nav-link" href="#footer">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  <section id="main" class="coloured-section">
+  <div class="container">
+    
+    <h1 class="main-heading">Welcome to Sparks Bank</h1>
+		<h1>
+            Easiest Way to
+            <span id="sp" class="font-weight-bold">Transfer Money</span>
+          </h1>
+          <p class="lead muted">
+            TRANSFER MONEY
+            <span id="sp" class="font-weight-bold">IN SECONDS</span>
+          </p>
+  </div>
+</section>
+
+
+
+  <section id="features" class="white-section">
+  <div class="row" >
+
+    <div class="col-lg-6 middle-container-item" >
+		<br><br>
+            <img src="users.jpg" class="img-fluid" style="margin-top:-35%;">
+        <br><br>
+		<a class="btn btn-secondary btn-lg my-btn" href="customers.html">View Customers</a>
+	</div>
+    <div class="col-lg-6 middle-container-item">
+	<br><br>
+        <img src="transfer.png" class="img-fluid" style="
+              width: 250px;
+              height: 250px; margin-top:-35%;">
+    <br><br>
+    <a class="btn btn-secondary btn-lg my-btn" href="transfer.html">Make Transaction</a>
+    </div>
+  </section>
+  
+  <!--===== ABOUT =====-->
+    <section class="about section" id="about" style="margin-top:0px;">
+      <h2
+        class="section-title"
+        style="color: #0b0d0e; font-weight: bolder; text-align: center; margin-top:-5%;"
+      >
+        About
+      </h2>
+
+      <div class="about__container bd-grid">
+        <div class="about__img">
+          <img
+            src="bank.jpg"
+            alt=""
+            style="
+              width: 330px;
+              height: 330px;
+              border-radius: 14%;
+              margin-left: 350px;
+			  margin-down:50px;
+              display: inline-block;
+              vertical-align: middle;
+              float: left;
+            "
+          />
+        </div>
+        <div>
+          <h3
+            class="about__subtitle"
+            style="margin-left: 700px; margin-top: 50px; font-weight: bolder"
+          >
+            Sparks Bank
+          </h3>
+          
+          <p class="about__text" style="margin-left: 700px">We're here for you.</p>
+
+          <p class="about__text" style="margin-left: 700px">
+            We provide loans, accept deposits and best results!
+            </p>
+          <p class="about__text" style="margin-left: 700px">EASY TRANSACTION IN ONE STEP!</p>
+        </div>
+      </div>
+    </section>
+  
+ <!-- Footer Contact Details -->
+  <section id="footer" style="margin-bottom:1em;">
+
+    <hr style="margin-top:-2%;">
+    <p class="get-social">Keep in Touch</p>
+    <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook social-icon"></i></a>
+    <a href="https://twitter.com/?lang=en" target="_blank"><i class="fab fa-twitter social-icon"></i></a>
+    <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram social-icon"></i></a>
+    <a href="https://mail.google.com/" target="_blank"><i class="fas fa-envelope social-icon"></i></a>
+    <hr>
+
+    <p class="copyright" >© Copyright 2021 Sparks Bank. All Rights Reversed.</p>
+	<p class="love" style="margin-bottom:-3%;">
+          Made with <i class="fa fa-heart pulse"></i> by Niteesha
+        </p>
+  </section>
+  <script src="script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js"></script>
+  <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js"></script>
+
+  <!-- aos data  -->
+  
+  <!-- spalsh screen js -->
+    <script>
+      var preloader = document.getElementById("loading");
+      function loader() {
+        preloader.style.display = "none";
+      }
+    </script>
+	
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 700,
+    });
+  </script>
+
+</body>
+
+</html>
